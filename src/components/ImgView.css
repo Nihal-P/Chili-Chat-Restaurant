@@ -2,6 +2,7 @@
 
 #imgView{
     margin-top: 3%;
+    min-height: 75vh;
 }
 
 .each-slide > div {

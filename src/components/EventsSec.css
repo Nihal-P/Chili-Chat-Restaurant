@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#eventsContainer {
+    color:rgb(175, 136, 73);
+    display: flex;
+    justify-content: center;
+}
+
+.itemContainer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(230px, 0fr));
+    width: 1000px;
+    grid-gap: 20px;
+}
+
+.eventImg {
+    width: 230px;
+    height: 140px;
+    margin-bottom: 15px;
+}
+
+
+.title {
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.eventInfo {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}

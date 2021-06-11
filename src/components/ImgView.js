@@ -1,14 +1,11 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import './ImgView.css';
-import image1 from './images/image01.jpg';
-import image2 from './images/image02.jpg';
-import image3 from './images/image03.jpg';
 
 const slideImages = [
-    image1,
-    image2,
-    image3
+    'images/image01.jpg',
+    'images/image02.jpg',
+    'images/image03.jpg'
   ];
 
 const ImgView = () => {

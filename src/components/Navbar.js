@@ -6,7 +6,7 @@ const Navbar = () => {
             <div class="line"></div>
             <div class="line2"></div>
             <div class="titleContainer">
-                <span class="title">Chili Chat</span>
+                <span class="company">Chili Chat</span>
             </div>
 
             <div class="line3"></div>
